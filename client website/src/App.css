@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+
+.bg-image{
+  background-image: url('./assets/images/hero-bg-3.jpg');
+width: 100%;
+height: 00px;
+background-repeat: no-repeat;
+
+  background-size: cover;
+  
+ 
+  
+}
+.text{
+  color: rgb(8, 8, 8);
+  font-size: 5rem;
+  font-size: larger;
+  font-weight: 900;
+}
+.button{
+  border-radius: 80px;
+  /* padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s; */
+}
+/* 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.circle-timer {
+  width: 290px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.circle-timer p {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.border-green {
+  border-color: #9effd8;
+}
+
+.border-orange {
+  border-color: #ffb55a;
+}
+
+.border-blue {
+  border-color: #b9bfff;
+}
